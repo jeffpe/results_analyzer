@@ -127,7 +127,7 @@ profile['browser.download.dir'] = download_dir  #CONSIDER USING A CURRENT DATE I
 profile['browser.helperApps.neverAsk.saveToDisk'] = "text/csv"
 driver = Selenium::WebDriver.for :firefox, :profile => profile
 
-driver.navigate.to "https://login.salesforce.com/?un=jesser@hedgeye.com&pw=Jphere02"  #ALERT - MUST USE SYSTEM VARIABLE HERE for un and pw THAT DOES NOT GO TO GIT HUB
+driver.navigate.to "https://login.salesforce.com/?un=XXXXXXXX&pw=XXXXXXXX"  #ALERT - MUST USE SYSTEM VARIABLE HERE for un and pw THAT DOES NOT GO TO GIT HUB
 
 #NEED TO FIGURE OUT HOW TO TELL THE FILES APART - try download time or file name or order in directory array sort
 driver.navigate.to "https://na8.salesforce.com/00OC0000004uq5D?export=1&enc=UTF-8&xf=csv"   #Products Reports
